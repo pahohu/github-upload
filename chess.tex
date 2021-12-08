@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{chessboard}
+\usepackage{skak}
+\begin{document}
+\setchessboard{
+     normalboard,
+     showmover=false}
+     \def\mylist{Ke1, qe2, kf3}
+\setchessboard{setpieces=\mylist}
+\def\mylist{Ke1, Qd1, Bc1, Bf1, Ng1, Nb1, Ra1, Rh1, Pa2, Pb2, Pc2, Pd2, Pe2, Pf2, Pg2, Ph2, ra8, nb8, pa7, pb7, pc7, pd7, pe7, pf7, pg7, ph7, bc8, ke8, qd8, bf8, ng8, rh8}
+\chessboard\\
+
+\setchessboard{
+     normalboard,
+     showmover=false}
+     \def\mylist{Ke1, qe2, kf3}
+\setchessboard{setpieces=\mylist}
+\def\mylist{Ke1, Qd1, Bc1, Bf1, Ng1, Nb1, Ra1, Rh1, Pa2, Pb2, Pc2, Pd2, Pe4, Pf2, Pg2, Ph2, ra8, nb8, pa7, pb7, pc7, pd7, pe7, pf7, pg7, ph7, bc8, ke8, qd8, bf8, ng8, rh8}
+\chessboard
+\end{document}
